@@ -3,6 +3,9 @@ package com.blackoutburst.pgjigsaw.main;
 import com.blackoutburst.pgjigsaw.commands.CommandEnd;
 import com.blackoutburst.pgjigsaw.commands.CommandMaxScore;
 import com.blackoutburst.pgjigsaw.commands.CommandStart;
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
+import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.event.EventHandler;
@@ -18,11 +21,22 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Main  extends JavaPlugin implements Listener {
 
     public static int maxScore = 1;
+
     public static boolean gameRunning = false;
+
+    public static Location spawn;
+    public static Location gameSpawn;
+
+    public static World world;
 
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
+
+        world = Bukkit.getWorlds().get(0);
+
+        spawn = new Location(world, 263.5f, 2, 1816.5f, 90, 0);
+        gameSpawn = new Location(world, 250.5f, 2, 1823.5f, 0, 0);
     }
 
     @EventHandler
