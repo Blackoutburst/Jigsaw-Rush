@@ -1,0 +1,1135 @@
+loc:
+  '0':
+    world: world
+    x: 226
+    y: 14
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '1':
+    world: world
+    x: 226
+    y: 14
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '2':
+    world: world
+    x: 226
+    y: 14
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '3':
+    world: world
+    x: 226
+    y: 13
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '4':
+    world: world
+    x: 226
+    y: 13
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '5':
+    world: world
+    x: 226
+    y: 13
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '6':
+    world: world
+    x: 226
+    y: 12
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '7':
+    world: world
+    x: 226
+    y: 12
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '8':
+    world: world
+    x: 226
+    y: 12
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '9':
+    world: world
+    x: 268
+    y: 14
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '10':
+    world: world
+    x: 268
+    y: 14
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '11':
+    world: world
+    x: 268
+    y: 14
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '12':
+    world: world
+    x: 268
+    y: 13
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '13':
+    world: world
+    x: 268
+    y: 13
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '14':
+    world: world
+    x: 268
+    y: 13
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '15':
+    world: world
+    x: 268
+    y: 12
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '16':
+    world: world
+    x: 268
+    y: 12
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '17':
+    world: world
+    x: 268
+    y: 12
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '18':
+    world: world
+    x: 226
+    y: 14
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '19':
+    world: world
+    x: 226
+    y: 14
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '20':
+    world: world
+    x: 226
+    y: 14
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '21':
+    world: world
+    x: 226
+    y: 13
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '22':
+    world: world
+    x: 226
+    y: 13
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '23':
+    world: world
+    x: 226
+    y: 13
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '24':
+    world: world
+    x: 226
+    y: 12
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '25':
+    world: world
+    x: 226
+    y: 12
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '26':
+    world: world
+    x: 226
+    y: 12
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '27':
+    world: world
+    x: 268
+    y: 14
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '28':
+    world: world
+    x: 268
+    y: 14
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '29':
+    world: world
+    x: 268
+    y: 14
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '30':
+    world: world
+    x: 268
+    y: 13
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '31':
+    world: world
+    x: 268
+    y: 13
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '32':
+    world: world
+    x: 268
+    y: 13
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '33':
+    world: world
+    x: 268
+    y: 12
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '34':
+    world: world
+    x: 268
+    y: 12
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '35':
+    world: world
+    x: 268
+    y: 12
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '36':
+    world: world
+    x: 226
+    y: 14
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '37':
+    world: world
+    x: 226
+    y: 14
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '38':
+    world: world
+    x: 226
+    y: 14
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '39':
+    world: world
+    x: 226
+    y: 13
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '40':
+    world: world
+    x: 226
+    y: 13
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '41':
+    world: world
+    x: 226
+    y: 13
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '42':
+    world: world
+    x: 226
+    y: 12
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '43':
+    world: world
+    x: 226
+    y: 12
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '44':
+    world: world
+    x: 226
+    y: 12
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '45':
+    world: world
+    x: 268
+    y: 14
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '46':
+    world: world
+    x: 268
+    y: 14
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '47':
+    world: world
+    x: 268
+    y: 14
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '48':
+    world: world
+    x: 268
+    y: 13
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '49':
+    world: world
+    x: 268
+    y: 13
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '50':
+    world: world
+    x: 268
+    y: 13
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '51':
+    world: world
+    x: 268
+    y: 12
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '52':
+    world: world
+    x: 268
+    y: 12
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '53':
+    world: world
+    x: 268
+    y: 12
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '54':
+    world: world
+    x: 226
+    y: 11
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '55':
+    world: world
+    x: 226
+    y: 11
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '56':
+    world: world
+    x: 226
+    y: 11
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '57':
+    world: world
+    x: 226
+    y: 10
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '58':
+    world: world
+    x: 226
+    y: 10
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '59':
+    world: world
+    x: 226
+    y: 10
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '60':
+    world: world
+    x: 226
+    y: 9
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '61':
+    world: world
+    x: 226
+    y: 9
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '62':
+    world: world
+    x: 226
+    y: 9
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '63':
+    world: world
+    x: 268
+    y: 11
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '64':
+    world: world
+    x: 268
+    y: 11
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '65':
+    world: world
+    x: 268
+    y: 11
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '66':
+    world: world
+    x: 268
+    y: 10
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '67':
+    world: world
+    x: 268
+    y: 10
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '68':
+    world: world
+    x: 268
+    y: 10
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '69':
+    world: world
+    x: 268
+    y: 9
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '70':
+    world: world
+    x: 268
+    y: 9
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '71':
+    world: world
+    x: 268
+    y: 9
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '72':
+    world: world
+    x: 226
+    y: 11
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '73':
+    world: world
+    x: 226
+    y: 11
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '74':
+    world: world
+    x: 226
+    y: 11
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '75':
+    world: world
+    x: 226
+    y: 10
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '76':
+    world: world
+    x: 226
+    y: 10
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '77':
+    world: world
+    x: 226
+    y: 10
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '78':
+    world: world
+    x: 226
+    y: 9
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '79':
+    world: world
+    x: 226
+    y: 9
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '80':
+    world: world
+    x: 226
+    y: 9
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '81':
+    world: world
+    x: 268
+    y: 11
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '82':
+    world: world
+    x: 268
+    y: 11
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '83':
+    world: world
+    x: 268
+    y: 11
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '84':
+    world: world
+    x: 268
+    y: 10
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '85':
+    world: world
+    x: 268
+    y: 10
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '86':
+    world: world
+    x: 268
+    y: 10
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '87':
+    world: world
+    x: 268
+    y: 9
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '88':
+    world: world
+    x: 268
+    y: 9
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '89':
+    world: world
+    x: 268
+    y: 9
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '90':
+    world: world
+    x: 226
+    y: 11
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '91':
+    world: world
+    x: 226
+    y: 11
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '92':
+    world: world
+    x: 226
+    y: 11
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '93':
+    world: world
+    x: 226
+    y: 10
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '94':
+    world: world
+    x: 226
+    y: 10
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '95':
+    world: world
+    x: 226
+    y: 10
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '96':
+    world: world
+    x: 226
+    y: 9
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '97':
+    world: world
+    x: 226
+    y: 9
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '98':
+    world: world
+    x: 226
+    y: 9
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '99':
+    world: world
+    x: 268
+    y: 11
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '100':
+    world: world
+    x: 268
+    y: 11
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '101':
+    world: world
+    x: 268
+    y: 11
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '102':
+    world: world
+    x: 268
+    y: 10
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '103':
+    world: world
+    x: 268
+    y: 10
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '104':
+    world: world
+    x: 268
+    y: 10
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '105':
+    world: world
+    x: 268
+    y: 9
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '106':
+    world: world
+    x: 268
+    y: 9
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '107':
+    world: world
+    x: 268
+    y: 9
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '108':
+    world: world
+    x: 226
+    y: 8
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '109':
+    world: world
+    x: 226
+    y: 8
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '110':
+    world: world
+    x: 226
+    y: 8
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '111':
+    world: world
+    x: 226
+    y: 7
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '112':
+    world: world
+    x: 226
+    y: 7
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '113':
+    world: world
+    x: 226
+    y: 7
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '114':
+    world: world
+    x: 226
+    y: 6
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '115':
+    world: world
+    x: 226
+    y: 6
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '116':
+    world: world
+    x: 226
+    y: 6
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '117':
+    world: world
+    x: 268
+    y: 8
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '118':
+    world: world
+    x: 268
+    y: 8
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '119':
+    world: world
+    x: 268
+    y: 8
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '120':
+    world: world
+    x: 268
+    y: 7
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '121':
+    world: world
+    x: 268
+    y: 7
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '122':
+    world: world
+    x: 268
+    y: 7
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '123':
+    world: world
+    x: 268
+    y: 6
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '124':
+    world: world
+    x: 268
+    y: 6
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '125':
+    world: world
+    x: 268
+    y: 6
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '126':
+    world: world
+    x: 226
+    y: 8
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '127':
+    world: world
+    x: 226
+    y: 8
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '128':
+    world: world
+    x: 226
+    y: 8
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '129':
+    world: world
+    x: 226
+    y: 7
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '130':
+    world: world
+    x: 226
+    y: 7
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '131':
+    world: world
+    x: 226
+    y: 7
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '132':
+    world: world
+    x: 226
+    y: 6
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '133':
+    world: world
+    x: 226
+    y: 6
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '134':
+    world: world
+    x: 226
+    y: 6
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '135':
+    world: world
+    x: 268
+    y: 8
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '136':
+    world: world
+    x: 268
+    y: 8
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '137':
+    world: world
+    x: 268
+    y: 8
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '138':
+    world: world
+    x: 268
+    y: 7
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '139':
+    world: world
+    x: 268
+    y: 7
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '140':
+    world: world
+    x: 268
+    y: 7
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '141':
+    world: world
+    x: 268
+    y: 6
+    z: 1815
+    yaw: 0.0
+    pitch: 0.0
+  '142':
+    world: world
+    x: 268
+    y: 6
+    z: 1816
+    yaw: 0.0
+    pitch: 0.0
+  '143':
+    world: world
+    x: 268
+    y: 6
+    z: 1817
+    yaw: 0.0
+    pitch: 0.0
+  '144':
+    world: world
+    x: 226
+    y: 8
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '145':
+    world: world
+    x: 226
+    y: 8
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '146':
+    world: world
+    x: 226
+    y: 8
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '147':
+    world: world
+    x: 226
+    y: 7
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '148':
+    world: world
+    x: 226
+    y: 7
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '149':
+    world: world
+    x: 226
+    y: 7
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '150':
+    world: world
+    x: 226
+    y: 6
+    z: 1814
+    yaw: 0.0
+    pitch: 0.0
+  '151':
+    world: world
+    x: 226
+    y: 6
+    z: 1813
+    yaw: 0.0
+    pitch: 0.0
+  '152':
+    world: world
+    x: 226
+    y: 6
+    z: 1812
+    yaw: 0.0
+    pitch: 0.0
+  '153':
+    world: world
+    x: 268
+    y: 8
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '154':
+    world: world
+    x: 268
+    y: 8
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '155':
+    world: world
+    x: 268
+    y: 8
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '156':
+    world: world
+    x: 268
+    y: 7
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '157':
+    world: world
+    x: 268
+    y: 7
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '158':
+    world: world
+    x: 268
+    y: 7
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0
+  '159':
+    world: world
+    x: 268
+    y: 6
+    z: 1818
+    yaw: 0.0
+    pitch: 0.0
+  '160':
+    world: world
+    x: 268
+    y: 6
+    z: 1819
+    yaw: 0.0
+    pitch: 0.0
+  '161':
+    world: world
+    x: 268
+    y: 6
+    z: 1820
+    yaw: 0.0
+    pitch: 0.0

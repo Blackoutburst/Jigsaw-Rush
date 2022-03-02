@@ -8,6 +8,7 @@ import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
+import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
@@ -18,6 +19,10 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
 public class Main  extends JavaPlugin implements Listener {
 
     public static int maxScore = 1;
@@ -26,6 +31,8 @@ public class Main  extends JavaPlugin implements Listener {
 
     public static Location spawn;
     public static Location gameSpawn;
+
+    public static List<Location> board = new ArrayList<>();
 
     public static World world;
 
@@ -37,6 +44,15 @@ public class Main  extends JavaPlugin implements Listener {
 
         spawn = new Location(world, 263.5f, 2, 1816.5f, 90, 0);
         gameSpawn = new Location(world, 250.5f, 2, 1823.5f, 0, 0);
+
+        YamlConfiguration file = YamlConfiguration.loadConfiguration(getClass().getResourceAsStream("/board.yml"));
+        Set<String> respawns = file.getConfigurationSection("loc").getKeys(false);
+        for (final String i : respawns) {
+            final double x = file.getDouble("loc."+i+".x");
+            final double y = file.getDouble("loc."+i+".y");
+            final double z = file.getDouble("loc."+i+".z");
+            board.add(new Location(world, x, y, z));
+        }
     }
 
     @EventHandler
