@@ -17,6 +17,8 @@ import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.FoodLevelChangeEvent;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.PlayerDropItemEvent;
+import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
@@ -33,6 +35,7 @@ public class Main  extends JavaPlugin implements Listener {
     public static Location gameSpawn;
 
     public static List<Location> board = new ArrayList<>();
+    public static List<Location> player_board = new ArrayList<>();
 
     public static World world;
 
@@ -53,6 +56,26 @@ public class Main  extends JavaPlugin implements Listener {
             final double z = file.getDouble("loc."+i+".z");
             board.add(new Location(world, x, y, z));
         }
+
+        file = YamlConfiguration.loadConfiguration(getClass().getResourceAsStream("/player_board.yml"));
+        respawns = file.getConfigurationSection("loc").getKeys(false);
+        for (final String i : respawns) {
+            final double x = file.getDouble("loc."+i+".x");
+            final double y = file.getDouble("loc."+i+".y");
+            final double z = file.getDouble("loc."+i+".z");
+            player_board.add(new Location(world, x, y, z));
+        }
+    }
+
+    @EventHandler
+    public void onPlayerInteract(PlayerInteractEvent event) {
+        if (event.getClickedBlock() != null)
+            System.out.println(event.getClickedBlock().getType());
+    }
+
+    @EventHandler
+    public void onPlayerJoin(PlayerJoinEvent event) {
+        event.getPlayer().teleport(spawn);
     }
 
     @EventHandler

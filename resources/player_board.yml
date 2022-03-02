@@ -1,0 +1,64 @@
+loc:
+  '0':
+    world: world
+    x: 251
+    y: 5
+    z: 1827
+    yaw: 0.0
+    pitch: 0.0
+  '1':
+    world: world
+    x: 250
+    y: 5
+    z: 1827
+    yaw: 0.0
+    pitch: 0.0
+  '2':
+    world: world
+    x: 249
+    y: 5
+    z: 1827
+    yaw: 0.0
+    pitch: 0.0
+  '3':
+    world: world
+    x: 251
+    y: 4
+    z: 1827
+    yaw: 0.0
+    pitch: 0.0
+  '4':
+    world: world
+    x: 250
+    y: 4
+    z: 1827
+    yaw: 0.0
+    pitch: 0.0
+  '5':
+    world: world
+    x: 249
+    y: 4
+    z: 1827
+    yaw: 0.0
+    pitch: 0.0
+  '6':
+    world: world
+    x: 251
+    y: 3
+    z: 1827
+    yaw: 0.0
+    pitch: 0.0
+  '7':
+    world: world
+    x: 250
+    y: 3
+    z: 1827
+    yaw: 0.0
+    pitch: 0.0
+  '8':
+    world: world
+    x: 249
+    y: 3
+    z: 1827
+    yaw: 0.0
+    pitch: 0.0
