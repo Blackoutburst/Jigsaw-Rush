@@ -3,8 +3,10 @@ package com.blackoutburst.pgjigsaw.main;
 import com.blackoutburst.pgjigsaw.commands.CommandEnd;
 import com.blackoutburst.pgjigsaw.commands.CommandMaxScore;
 import com.blackoutburst.pgjigsaw.commands.CommandStart;
+import com.blackoutburst.pgjigsaw.core.Core;
 import com.blackoutburst.pgjigsaw.utils.Utils;
 import org.bukkit.*;
+import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -20,6 +22,8 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.time.Duration;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -72,8 +76,24 @@ public class Main  extends JavaPlugin implements Listener {
     public void onPlayerInteract(PlayerInteractEvent event) {
         if (event.getClickedBlock() == null) return;
         if (event.getPlayer().getItemInHand() == null) return;
-        if (Utils.isFromPlayerBoard(event.getClickedBlock().getLocation())) {
-            event.getClickedBlock().setType(event.getPlayer().getItemInHand().getType());
+        final Block clickedBlock = event.getClickedBlock();
+
+        if (Utils.isFromPlayerBoard(clickedBlock.getLocation())) {
+            clickedBlock.setType(event.getPlayer().getItemInHand().getType());
+            if (clickedBlock.getType().equals(Core.order[Utils.boardIndex(clickedBlock.getLocation())])) {
+                event.getPlayer().playSound(event.getPlayer().getLocation(), Sound.ORB_PICKUP, 1, 1);
+                if (Utils.correctBoard()) {
+                    Core.boardEnd = Instant.now();
+                    event.getPlayer().sendMessage("§aYou completed this craft in: §b"+Utils.ROUND.format(((float) Duration.between(Core.boardBegin, Core.boardEnd).toMillis() / 1000.0f))+"s");
+                    Core.currentScore++;
+                    if (Core.currentScore >= maxScore) {
+                        Core.end();
+                    } else {
+                        Utils.generateBoard();
+                        Utils.giveItems(event.getPlayer());
+                    }
+                }
+            }
         }
     }
 
