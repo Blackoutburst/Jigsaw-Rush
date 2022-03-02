@@ -84,7 +84,7 @@ public class Main  extends JavaPlugin implements Listener {
                 event.getPlayer().playSound(event.getPlayer().getLocation(), Sound.ORB_PICKUP, 1, 1);
                 if (Utils.correctBoard()) {
                     Core.boardEnd = Instant.now();
-                    event.getPlayer().sendMessage("§aYou completed this craft in: §b"+Utils.ROUND.format(((float) Duration.between(Core.boardBegin, Core.boardEnd).toMillis() / 1000.0f))+"s");
+                    event.getPlayer().sendMessage("§aYou completed this board in: §b"+Utils.ROUND.format(((float) Duration.between(Core.boardBegin, Core.boardEnd).toMillis() / 1000.0f))+"s");
                     Core.currentScore++;
                     if (Core.currentScore >= maxScore) {
                         Core.end();

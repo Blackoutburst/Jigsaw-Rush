@@ -26,7 +26,7 @@ public class CommandMaxScore {
         }
 
         Main.maxScore = value;
-        sender.sendMessage("§bThe amount of craft needed to complete the game has been set to §6"+value);
+        sender.sendMessage("§bThe amount of board needed to complete the game has been set to §6"+value);
     }
 
 }

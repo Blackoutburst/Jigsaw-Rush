@@ -52,7 +52,7 @@ public class Core {
         Utils.cleanBoard();
 
         for (Player p : Bukkit.getOnlinePlayers()) {
-            p.sendMessage("§aYou completed "+currentScore+" craft in: §b"+Utils.ROUND.format(((float) Duration.between(Core.gameBegin, Core.gameEnd).toMillis() / 1000.0f))+"s");
+            p.sendMessage("§aYou completed "+currentScore+" board in: §b"+Utils.ROUND.format(((float) Duration.between(Core.gameBegin, Core.gameEnd).toMillis() / 1000.0f))+"s");
             p.getInventory().clear();
             p.teleport(Main.spawn);
         }
