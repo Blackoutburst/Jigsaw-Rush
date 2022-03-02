@@ -5,6 +5,7 @@ import com.blackoutburst.pgjigsaw.commands.CommandMaxScore;
 import com.blackoutburst.pgjigsaw.commands.CommandStart;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -34,10 +35,12 @@ public class Main  extends JavaPlugin implements Listener {
     public static Location spawn;
     public static Location gameSpawn;
 
-    public static List<Location> board = new ArrayList<>();
-    public static List<Location> player_board = new ArrayList<>();
+    public static final List<Location> BOARD = new ArrayList<>();
+    public static final List<Location> PLAYER_BOARD = new ArrayList<>();
 
-    public static World world;
+    public static final Material[] MATERIALS = new Material[] {Material.STONE, Material.WOOD, Material.COBBLESTONE, Material.BRICK, Material.NETHERRACK, Material.ENDER_STONE, Material.DIRT, Material.LOG, Material.GOLD_BLOCK};
+
+    public static  World world;
 
     @Override
     public void onEnable() {
@@ -54,7 +57,7 @@ public class Main  extends JavaPlugin implements Listener {
             final double x = file.getDouble("loc."+i+".x");
             final double y = file.getDouble("loc."+i+".y");
             final double z = file.getDouble("loc."+i+".z");
-            board.add(new Location(world, x, y, z));
+            BOARD.add(new Location(world, x, y, z));
         }
 
         file = YamlConfiguration.loadConfiguration(getClass().getResourceAsStream("/player_board.yml"));
@@ -63,7 +66,7 @@ public class Main  extends JavaPlugin implements Listener {
             final double x = file.getDouble("loc."+i+".x");
             final double y = file.getDouble("loc."+i+".y");
             final double z = file.getDouble("loc."+i+".z");
-            player_board.add(new Location(world, x, y, z));
+            PLAYER_BOARD.add(new Location(world, x, y, z));
         }
     }
 
