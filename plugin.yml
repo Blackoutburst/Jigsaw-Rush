@@ -1,0 +1,16 @@
+main: com.blackoutburst.pgjigsaw.main.Main
+name: PG-Jigsaw
+version: 0.1
+api-version: 1.13
+author: Blackoutburst
+description: Party Game Jigsaw rush practice
+commands:
+  maxscore:
+    description: Set the number of baord you need to complete
+    usage: /maxscore <value>
+  start:
+    description: Start the game
+    usage: /start
+  end:
+    description: End the game
+    usage: /end
