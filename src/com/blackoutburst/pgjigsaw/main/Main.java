@@ -3,6 +3,7 @@ package com.blackoutburst.pgjigsaw.main;
 import com.blackoutburst.pgjigsaw.commands.CommandEnd;
 import com.blackoutburst.pgjigsaw.commands.CommandMaxScore;
 import com.blackoutburst.pgjigsaw.commands.CommandStart;
+import com.blackoutburst.pgjigsaw.utils.Utils;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -72,8 +73,12 @@ public class Main  extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent event) {
-        if (event.getClickedBlock() != null)
-            System.out.println(event.getClickedBlock().getType());
+        if (event.getClickedBlock() == null) return;
+        if (event.getPlayer().getItemInHand() == null) return;
+
+        if (Utils.isFromPlayerBoard(event.getClickedBlock().getLocation())) {
+            event.getClickedBlock().setType(event.getPlayer().getItemInHand().getType());
+        }
     }
 
     @EventHandler
