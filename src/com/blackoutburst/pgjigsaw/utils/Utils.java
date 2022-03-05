@@ -30,7 +30,7 @@ public class Utils {
     public static void generateBoard() {
         List<Material> tmp = Arrays.asList(Main.MATERIALS.clone());
         Collections.shuffle(tmp);
-        Core.order = tmp.toArray(Main.MATERIALS);
+        Core.order = tmp.toArray(Main.MATERIALS.clone());
 
         int i = 0;
         int materialIndex = 0;
