@@ -21,7 +21,6 @@ public class Utils {
 
     public static void giveItems(Player player) {
         List<Material> tmp = Arrays.asList(Main.MATERIALS.clone());
-        Collections.shuffle(tmp);
 
         for (int i = 0; i < 9; i++) {
             player.getInventory().setItem(i, new ItemStack(tmp.get(i), 1));
