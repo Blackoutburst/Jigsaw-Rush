@@ -79,7 +79,8 @@ public class Main  extends JavaPlugin implements Listener {
         final Block clickedBlock = event.getClickedBlock();
 
         if (Utils.isFromPlayerBoard(clickedBlock.getLocation())) {
-            clickedBlock.setType(event.getPlayer().getItemInHand().getType());
+            if (!event.getPlayer().getItemInHand().getType().equals(Material.AIR))
+                clickedBlock.setType(event.getPlayer().getItemInHand().getType());
             if (clickedBlock.getType().equals(Core.order[Utils.boardIndex(clickedBlock.getLocation())])) {
                 event.getPlayer().playSound(event.getPlayer().getLocation(), Sound.ORB_PICKUP, 1, 1);
                 if (Utils.correctBoard()) {
